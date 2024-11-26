@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  svg {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+  }
+  
+  .links line {
+    stroke: #999;
+    pointer-events: none;
+  }
+  
+  .nodes circle {
+    stroke: #000;
+    stroke-width: 1px;
+  }
+  
+  .labels {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .primary {
+    color: #af0000;
+  }
+  
+  .secondary {
+    color: #00a700;
+  }
+  
+  div.tooltip {
+    position: relative;
+    top:10px;
+    font-size: 14px;
+    background-color: white;
+    opacity: 0;
+    height: auto;
+    padding: 10px;
+  }
+  
+  div.tooltip .Legendary {
+    color: #ff9b00;
+  }
+  
+  div.tooltip .Epic {
+    color: #ac41c2;
+  }
+  
+  div.tooltip .Elite {
+    color: #058cc3;
+  }
+  
+  div.tooltip .Advanced {
+    color: #2d9830;
+  }
+  
+  div.tooltip table {
+    position: relative;
+    width:100%;
+    font-size: 12px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  div.tooltip table td {
+    padding: 2px;
+  }
+  
